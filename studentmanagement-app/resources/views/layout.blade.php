@@ -85,15 +85,16 @@
   <!-- Sidebar -->
   <div class="sidebar">
     <a class="active" href="#home">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a href="#news">Student</a>
+    <a href="#contact">Teacher</a>
+    <a href="#course">Courses</a>
+    <a href="#about">Enrollment</a>
+    <a href="#payment">Payment</a>
   </div>
 
   <!-- Page Content -->
   <div class="content">
-    <h3>Welcome to the Student Management System</h3>
-    <p>This is the main content area.</p>
+        @yield('content')
   </div>
 </body>
 </html>
