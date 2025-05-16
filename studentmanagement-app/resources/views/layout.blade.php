@@ -93,8 +93,10 @@
   </div>
 
   <!-- Page Content -->
-  <div class="content">
+  <div class="col-md-9">
+    
         @yield('content')
+  
   </div>
 </body>
 </html>
